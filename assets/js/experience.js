@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "IT Executive",
+    cardImage: "assets/images/experience-page/kimshealth.jpg",
+    place: "KIMS ALSHIFA",
+    time: "(Dec, 2023 - jan 2025)",
+    desp: "<li>Optimized network infrastructure for seamless connectivity across hospital departments.</li><li>Provided IT support, resolving hardware, software, and network issues for staff and end-users.</li> <li>Migrated hospital web pages to AMP, improving load speed and user experience.</li> <li>Managed database tasks, including performance tuning and critical data backups.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "IT admin Trainee",
+    cardImage: "assets/images/experience-page/nims.png",
+    place: "NIMS Hospital",
+    time: "(May - Dec, 2023)",
+    desp: "<li>Assisted in maintaining network infrastructure, ensuring stable hospital system connectivity.</li> <li>Supported database tasks, including backups and data integrity checks.</li> <li>Monitored system performance and resolved hardware/software issues to reduce downtime.</li> <li>Collaborated with senior IT staff to improve processes and enhance network security.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Full Stack Intern",
+    cardImage: "assets/images/experience-page/Talrop_logo.svg",
+    place: "Talrop INC",
+    time: "(jun,19 - apr, 23)",
+    desp: "<li>Developed full-stack web applications, working on both front-end and back-end features for the startup's products.</li><li>Collaborated with the development team to design and implement new features using technologies like HTML, CSS, JavaScript, and Node.js.</li><li>Assisted in database management, creating and optimizing queries for the startup’s systems.</li><li>Contributed to debugging and troubleshooting to ensure smooth functionality across different platforms.</li>",
   },
 ];
 
@@ -62,28 +62,40 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Odoo Community Edition",
+    cardImage: "assets/images/experience-page/OdooCE.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Building custom modules or integrating third-party applications with Odoo.",
   },
   {
-    title: "StudentCode-in 2020",
+    title: "ERPNext",
+    cardImage: "assets/images/experience-page/erpnext.jpg",
+    description:
+      "Provide technical support for users of ERPNext, help with troubleshooting issues, provide guidance on using the system, and resolve technical queries in the community",
+  },
+  {
+    title: "FreeCodeCamp",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Developed code for free, interactive coding lessons on HTML, CSS, JavaScript, Python, and other programming languages..",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Mattermost",
+    cardImage: "assets/images/experience-page/mattermost.svg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Developed and improved features for the Mattermost messaging platform, including integrations with third-party tools and optimizing real-time messaging functionality.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "OPENAPI",
+    cardImage: "assets/images/experience-page/PAPI.svg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Contributed to the collection and maintenance of open-source, free APIs used in development projects by adding new APIs and improving existing entries.",
+  },
+  {
+    title: "Metabase",
+    cardImage: "assets/images/experience-page/metabase.png",
+    description:
+      "Helped in improving the platform's ability to connect to various data sources, optimizing integration with databases like MySQL, PostgreSQL, and other third-party services.",
   },
 ];
 
