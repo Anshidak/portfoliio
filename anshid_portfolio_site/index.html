@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshid Areekkal - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <button class="mode-toggle" onclick="toggleTheme()">🌓</button>
+
+    <section class="card active" id="about">
+      <h1>Anshid Areekkal</h1>
+      <h2><span id="typed-text"></span></h2>
+      <p>Dedicated IT professional with hands-on experience across healthcare, retail, and enterprise sectors. Skilled in maintaining system stability, supporting networks, and managing digital infrastructure. Passionate about continuous learning and contributing to efficient, reliable IT environments</p>
+    </section>
+
+    <section class="card" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor of Computer Applications - Calicut University</li>
+        <li>ASAP Technical Course (FTCP)- Central Government Of India</li>
+        <li>Software Intern - Talrop Inc </li>
+        <li>CCNA, SAP Training – Ongoing</li>
+      </ul>
+    </section>
+
+    <section class="card" id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>IT Support – Lulu Group (UAE)</li>
+        <li>IT Executive – KIMS Alshifa Super Specialty Hospital</li>
+        <li>IT Admin Trainee - NIMS Hospital</li>
+        <li>Full Stack Intern – Talrop Startup</li>
+      </ul>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="assets/project1.jpg" alt="Laravel Admin Panel" />
+        <p><strong>Laravel Admin Panel</strong> – Custom CMS with dashboard controls.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/project2.jpg" alt="POS Tracker" />
+        <p><strong>ER Patient Tracker</strong> – Patient Tracker with a Built in Barcode Print Option.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/project3.jpg" alt="KIMS Dashboard" />
+        <p><strong>Internal IT Dashboard</strong> – Used in KIMS to track inventory.</p>
+      </div>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-grid">
+        <li>Network & System Admin</li>
+        <li>SAP Support</li>
+        <li>Laravel & PHP</li>
+        <li>JavaScript & Frontend</li>
+        <li>Linux & Windows Support</li>
+        <li>IT Troubleshooting</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: anshidareekkalatae@gmail.com</p>
+      <p>LinkedIn: https://www.linkedin.com/in/anshid-areekkal-9177b6183/</p>
+    </section>
+
+    <nav class="nav">
+      <button onclick="showCard('about')">About</button>
+      <button onclick="showCard('education')">Education</button>
+      <button onclick="showCard('experience')">Experience</button>
+      <button onclick="showCard('projects')">Projects</button>
+      <button onclick="showCard('skills')">Skills</button>
+      <button onclick="showCard('contact')">Contact</button>
+    </nav>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
